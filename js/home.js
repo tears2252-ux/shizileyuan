@@ -91,9 +91,9 @@ function renderHome(root, params) {
 
   // 底部导航
   html += '<div class="bottom-nav">';
-  html += '<button class="nav-item active" onclick="App.navigateTo('home')"><span class="nav-icon">🧭</span>探险</button>';
-  html += '<button class="nav-item" onclick="App.navigateTo('learn/' + AppState.unlockedLevel + '/0')"><span class="nav-icon">📖</span>学字</button>';
-  html += '<button class="nav-item" onclick="App.navigateTo('review')"><span class="nav-icon">🏆</span>宝藏</button>';
+  html += '<button class="nav-item active" onclick="App.navigateTo(\'home\')"><span class="nav-icon">🧭</span>探险</button>';
+  html += '<button class="nav-item" onclick="App.navigateTo(\'learn/' + AppState.unlockedLevel + '/0\')"><span class="nav-icon">📖</span>学字</button>';
+  html += '<button class="nav-item" onclick="App.navigateTo(\'review\')"><span class="nav-icon">🏆</span>宝藏</button>';
   html += '</div>';
 
   html += '</div>';
