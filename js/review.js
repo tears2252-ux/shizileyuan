@@ -23,7 +23,7 @@ function renderReview(root, params) {
 
   // 顶部栏
   html += '<div class="top-bar">';
-  html += '<button class="back-btn" onclick="App.navigateTo('home')">←</button>';
+  html += '<button class="back-btn" onclick="App.navigateTo(\'home\')">←</button>';
   html += '<span class="title">复习总览</span>';
   html += '<span></span>';
   html += '</div>';
@@ -112,9 +112,9 @@ function renderReview(root, params) {
 
   // 底部导航
   html += '<div class="bottom-nav">';
-  html += '<button class="nav-item" onclick="App.navigateTo('home')"><span class="nav-icon">🏠</span>首页</button>';
-  html += '<button class="nav-item" onclick="App.navigateTo('learn/' + AppState.unlockedLevel + '/0')"><span class="nav-icon">🔍</span>认字</button>';
-  html += '<button class="nav-item active" onclick="App.navigateTo('review')"><span class="nav-icon">🏆</span>复习</button>';
+  html += '<button class="nav-item" onclick="App.navigateTo(\'home\')"><span class="nav-icon">🏠</span>首页</button>';
+  html += '<button class="nav-item" onclick="App.navigateTo(\'learn/' + AppState.unlockedLevel + '/0\')"><span class="nav-icon">🔍</span>认字</button>';
+  html += '<button class="nav-item active" onclick="App.navigateTo(\'review\')"><span class="nav-icon">🏆</span>复习</button>';
   html += '</div>';
 
   html += '</div>';
